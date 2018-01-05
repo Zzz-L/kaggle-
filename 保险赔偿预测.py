@@ -9,6 +9,8 @@ Created on Mon Dec 18 19:44:57 2017
     1.sns.violinplot 绘制小提琴图  sns.pairplot 绘制散点图  sns.factorplot 绘制两变量关系图(默认折线图)
       sns.countplot  绘制频数图  sns.heatmap 将矩阵数据绘制成颜色编码的矩阵
     2.LabelEncoder 是对不连续的数字或者文本进行编号 OneHotEncoder 用于将表示分类的数据虚拟化  第64行
+      基于树的方法不需要进行one-hot编码(什么情况下需要one-hot编码)
+      one-hot与哑变量的区别：https://www.zhihu.com/question/48674426?sort=created
     4.处理离散变量还可以用pandas.get_dummies()
     3.np.column_stack 将1维数组作为列放入二维数组中 np.concatenate按照列添加数组
 """
